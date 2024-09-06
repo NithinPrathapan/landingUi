@@ -2,20 +2,31 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between p-4 items-center shadow-sm ">
+    <div className="flex justify-between p-4 items-center  ">
       <div>
-        <h1>NIke</h1>
+        <img
+          src="data:image/svg+xml,%3csvg%20width='129'%20height='29'%20viewBox='0%200%20129%2029'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M89.0803%206.2V23H86.5123L77.2483%2011.624V23H74.1523V6.2H76.7203L85.9843%2017.576V6.2H89.0803ZM93.294%2010.184H96.294V23H93.294V10.184ZM94.806%208.072C94.262%208.072%2093.806%207.904%2093.438%207.568C93.07%207.216%2092.886%206.784%2092.886%206.272C92.886%205.76%2093.07%205.336%2093.438%205C93.806%204.648%2094.262%204.472%2094.806%204.472C95.35%204.472%2095.806%204.64%2096.174%204.976C96.542%205.296%2096.726%205.704%2096.726%206.2C96.726%206.728%2096.542%207.176%2096.174%207.544C95.822%207.896%2095.366%208.072%2094.806%208.072ZM105.463%2017.504L103.231%2019.616V23H100.231V5.192H103.231V15.944L109.447%2010.184H113.047L107.695%2015.56L113.551%2023H109.903L105.463%2017.504ZM126.998%2016.664C126.998%2016.872%20126.982%2017.168%20126.95%2017.552H116.894C117.07%2018.496%20117.526%2019.248%20118.262%2019.808C119.014%2020.352%20119.942%2020.624%20121.046%2020.624C122.454%2020.624%20123.614%2020.16%20124.526%2019.232L126.134%2021.08C125.558%2021.768%20124.83%2022.288%20123.95%2022.64C123.07%2022.992%20122.078%2023.168%20120.974%2023.168C119.566%2023.168%20118.326%2022.888%20117.254%2022.328C116.182%2021.768%20115.35%2020.992%20114.758%2020C114.182%2018.992%20113.894%2017.856%20113.894%2016.592C113.894%2015.344%20114.174%2014.224%20114.734%2013.232C115.31%2012.224%20116.102%2011.44%20117.11%2010.88C118.118%2010.32%20119.254%2010.04%20120.518%2010.04C121.766%2010.04%20122.878%2010.32%20123.854%2010.88C124.846%2011.424%20125.614%2012.2%20126.158%2013.208C126.718%2014.2%20126.998%2015.352%20126.998%2016.664ZM120.518%2012.44C119.558%2012.44%20118.742%2012.728%20118.07%2013.304C117.414%2013.864%20117.014%2014.616%20116.87%2015.56H124.142C124.014%2014.632%20123.622%2013.88%20122.966%2013.304C122.31%2012.728%20121.494%2012.44%20120.518%2012.44Z'%20fill='%23FF6452'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M37.6096%209.80468C25.1346%2013.2758%2014.071%2016.112%2013.0239%2016.1065C10.0114%2016.0904%207.19209%2013.7015%206.76806%2010.8064C6.56893%209.44425%206.60402%207.46928%206.84618%206.41814L7.28659%204.50653L5.67183%206.53232C3.16986%209.67124%200.775395%2014.608%200.291439%2017.6257C-0.65927%2023.552%204.08624%2027.46%2010.4653%2026.0039C12.9937%2025.4271%2060.9554%204.55665%2061.8216%203.65636C62.4835%202.96871%2058.9453%203.86726%2037.6096%209.80468Z'%20fill='%23FF6452'/%3e%3c/svg%3e"
+          alt=""
+        />
       </div>
       <div>
-        <ul className="flex justify-between items-center text-center gap-8">
-          <li className="hover:text-yellow-500 cursor-pointer transition-all duration-300">Home</li>
-          <li className="hover:text-yellow-500 cursor-pointer transition-all duration-300">About</li>
-          <li className="hover:text-yellow-500 cursor-pointer transition-all duration-300">Contact</li>
-          <li className="hover:text-yellow-500 cursor-pointer transition-all duration-300">Location</li>
+        <ul className="flex justify-between items-center text-center gap-8 font-semibold uppercase">
+          <li className="hover:text-yellow-500 cursor-pointer transition-all duration-300">
+            Home
+          </li>
+          <li className="hover:text-yellow-500 cursor-pointer transition-all duration-300">
+            About
+          </li>
+          <li className="hover:text-yellow-500 cursor-pointer transition-all duration-300">
+            Contact
+          </li>
+          <li className="hover:text-yellow-500 cursor-pointer transition-all duration-300">
+            Location
+          </li>
         </ul>
       </div>
       <div>
-        <button className="bg-red-500 text-white w-[100px]  py-2 ">
+        <button className="bg-red-500 hover:rounded-lg text-white w-[100px]  py-2 ">
           Login
         </button>
       </div>

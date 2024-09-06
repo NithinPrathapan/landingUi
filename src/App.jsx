@@ -1,10 +1,12 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Hero from "./Hero";
 
 const App = () => {
   return (
-    <div>
+    <div className="w-[83%] mx-auto flex flex-col gap-32">
       <Navbar />
+      <Hero />
     </div>
   );
 };
